@@ -4,3 +4,7 @@ output "domain_identity_arn" {
 output "dkim_tokens" {
   value = module.ses.dkim_tokens
 }
+
+output "verification_token" {
+  value = module.ses.verification_token
+}

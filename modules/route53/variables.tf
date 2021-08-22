@@ -29,6 +29,12 @@ variable "enable_dkim" {
 }
 
 variable "external_domain_validation" {
-  type = bool
+  type        = bool
   description = "(optional) describe your variable"
+}
+
+variable "mail_from_domain" {
+  type        = string
+  description = "(optional) Specify mail from domain"
+  default     = ""
 }

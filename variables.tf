@@ -1,7 +1,7 @@
 variable "domain_identity" {
   type        = string
   description = "Domain identity to configure on SES"
-  default = ""
+  default     = ""
 }
 
 variable "email_identity" {
@@ -24,7 +24,7 @@ variable "enable_dkim" {
 }
 
 variable "mail_from_domain" {
-  type = string
+  type        = string
   description = "(optional) Specify mail from domain"
-  default = ""
+  default     = ""
 }

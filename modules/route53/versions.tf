@@ -10,5 +10,5 @@ terraform {
 }
 
 provider "aws" {
-  alias="route53"
+  alias = "route53"
 }

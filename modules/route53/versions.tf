@@ -5,10 +5,7 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = ">= 3.67.0"
+      configuration_aliases = [ aws.route53 ]
     }
   }
-}
-
-provider "aws" {
-  alias = "route53"
 }
